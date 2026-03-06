@@ -1,0 +1,466 @@
+{
+  "version": "1.0",
+  "updated": "2026-03-06T09:23:15.510427",
+  "total_kols": 27,
+  "kols": [
+    {
+      "handle": "CryptoCapo_",
+      "name": "Il Capo Of Crypto",
+      "category": "技术交易员",
+      "followers": "~800K",
+      "contrarian_value": "极高",
+      "sentiment_weight": 9.0,
+      "description": "技术分析交易员，以极端看空闻名",
+      "why_selected": "2022-2023年持续看空至$12K，BTC却从$16K涨到$70K+，被社区公认为顶级反向指标。当他极度悲观时往往是底部区域。",
+      "known_for": [
+        "极端价格预测",
+        "看空偏好",
+        "技术分析"
+      ],
+      "language": "EN",
+      "tweet_frequency": "高"
+    },
+    {
+      "handle": "ColdBloodShill",
+      "name": "ColdBloodShill",
+      "category": "高频/Degen交易员",
+      "followers": "~400K",
+      "contrarian_value": "极高",
+      "sentiment_weight": 8.5,
+      "description": "加密交易员，情绪化推文多",
+      "why_selected": "推文情绪跟随市场短期波动极为敏感，恐慌时推文频率和负面情绪明显上升，是散户恐慌情绪的放大器和先行指标。",
+      "known_for": [
+        "短线交易",
+        "情绪化评论",
+        "山寨币"
+      ],
+      "language": "EN",
+      "tweet_frequency": "极高"
+    },
+    {
+      "handle": "AltcoinGordon",
+      "name": "AltcoinGordon",
+      "category": "高频/Degen交易员",
+      "followers": "~300K",
+      "contrarian_value": "极高",
+      "sentiment_weight": 8.5,
+      "description": "山寨币交易员，自称'fade my calls可获利'",
+      "why_selected": "本人公开承认反向操作其喊单可盈利。2025年3月其看空BTC后30分钟内价格下跌但随后反弹，典型的情绪底部信号制造者。",
+      "known_for": [
+        "山寨币喊单",
+        "情绪化预测",
+        "反向指标"
+      ],
+      "language": "EN",
+      "tweet_frequency": "高"
+    },
+    {
+      "handle": "TheMoonCarl",
+      "name": "Carl The Moon",
+      "category": "Meme/散户领袖",
+      "followers": "~500K",
+      "contrarian_value": "极高",
+      "sentiment_weight": 8.0,
+      "description": "Bitcoin YouTube/Twitter博主，散户风向标",
+      "why_selected": "粉丝群体以散户为主。当他和其粉丝群从狂热转为恐慌时，往往精确标记了市场的情绪底部。",
+      "known_for": [
+        "散户教育",
+        "价格预测",
+        "FOMO推动"
+      ],
+      "language": "EN",
+      "tweet_frequency": "高"
+    },
+    {
+      "handle": "100trillionUSD",
+      "name": "PlanB",
+      "category": "宏观分析师",
+      "followers": "~1.9M",
+      "contrarian_value": "极高",
+      "sentiment_weight": 8.0,
+      "description": "S2F模型创建者，量化分析师",
+      "why_selected": "S2F模型多次大幅偏离实际价格。当PlanB罕见地表达悲观时（打破一贯看多立场），说明市场已处于极度恐慌，历史上这往往接近底部。",
+      "known_for": [
+        "S2F模型",
+        "长期看多",
+        "量化预测"
+      ],
+      "language": "EN",
+      "tweet_frequency": "中等"
+    },
+    {
+      "handle": "CryptoMichNL",
+      "name": "Michaël van de Poppe",
+      "category": "技术交易员",
+      "followers": "~700K",
+      "contrarian_value": "高",
+      "sentiment_weight": 7.5,
+      "description": "技术分析师，频繁发布BTC/ETH/ALT分析",
+      "why_selected": "发推频率极高且覆盖多周期分析。市场极端下跌时其推文会明显从'买入机会'转为'可能继续下跌'，此转向是重要信号。",
+      "known_for": [
+        "技术分析",
+        "山寨币",
+        "频繁更新"
+      ],
+      "language": "EN",
+      "tweet_frequency": "极高"
+    },
+    {
+      "handle": "Pentosh1",
+      "name": "Pentoshi",
+      "category": "技术交易员",
+      "followers": "~700K",
+      "contrarian_value": "高",
+      "sentiment_weight": 7.5,
+      "description": "加密交易员，偏宏观和技术分析",
+      "why_selected": "交易实力较强但在极端行情中情绪也会波动。当其连续发布悲观推文并关闭多头仓位时，往往意味着卖压释放的尾声。",
+      "known_for": [
+        "波段交易",
+        "市场结构",
+        "宏观"
+      ],
+      "language": "EN",
+      "tweet_frequency": "中等"
+    },
+    {
+      "handle": "Trader_XO",
+      "name": "TraderXO",
+      "category": "技术交易员",
+      "followers": "~400K",
+      "contrarian_value": "高",
+      "sentiment_weight": 7.0,
+      "description": "技术分析交易员，擅长BTC市场结构",
+      "why_selected": "推文质量较高，当其从中性转为明确看空时说明技术面已经破位，但往往此时恐慌已充分释放。",
+      "known_for": [
+        "市场结构",
+        "支撑阻力",
+        "BTC分析"
+      ],
+      "language": "EN",
+      "tweet_frequency": "中等"
+    },
+    {
+      "handle": "HsakaTrades",
+      "name": "Hsaka",
+      "category": "技术交易员",
+      "followers": "~350K",
+      "contrarian_value": "高",
+      "sentiment_weight": 7.0,
+      "description": "衍生品交易员，关注资金费率和持仓",
+      "why_selected": "对衍生品市场的解读较深。当其判断'空头占优且看不到反转'时，往往空头仓位已过度拥挤，轧空行情即将发生。",
+      "known_for": [
+        "衍生品",
+        "资金费率",
+        "持仓分析"
+      ],
+      "language": "EN",
+      "tweet_frequency": "中等"
+    },
+    {
+      "handle": "PeterLBrandt",
+      "name": "Peter Brandt",
+      "category": "技术交易员",
+      "followers": "~700K",
+      "contrarian_value": "高",
+      "sentiment_weight": 7.0,
+      "description": "40年经验老牌技术分析师",
+      "why_selected": "传统技术分析流派。当他给出明确看空目标价时（如$42K），由于其影响力会触发散户恐慌卖出，反而加速见底。",
+      "known_for": [
+        "经典图表形态",
+        "长周期",
+        "风险管理"
+      ],
+      "language": "EN",
+      "tweet_frequency": "低"
+    },
+    {
+      "handle": "DonAlt",
+      "name": "DonAlt",
+      "category": "技术交易员",
+      "followers": "~500K",
+      "contrarian_value": "高",
+      "sentiment_weight": 7.0,
+      "description": "加密交易员和YouTuber",
+      "why_selected": "分析较为平衡，但在极端下跌时会发出'投降'式推文。当这类理性分析师也开始投降时，底部信号极强。",
+      "known_for": [
+        "视频分析",
+        "BTC交易",
+        "中长线"
+      ],
+      "language": "EN",
+      "tweet_frequency": "中等"
+    },
+    {
+      "handle": "inversebrah",
+      "name": "inversebrah",
+      "category": "高频/Degen交易员",
+      "followers": "~250K",
+      "contrarian_value": "高",
+      "sentiment_weight": 7.5,
+      "description": "加密Meme账号，情绪放大器",
+      "why_selected": "发布的Meme/表情完美反映CT(Crypto Twitter)的即时群体情绪。当其连续发布'末日'级悲观Meme时，是群体恐慌达到顶峰的标志。",
+      "known_for": [
+        "市场Meme",
+        "情绪温度计",
+        "实时反映"
+      ],
+      "language": "EN",
+      "tweet_frequency": "极高"
+    },
+    {
+      "handle": "woonomic",
+      "name": "Willy Woo",
+      "category": "链上分析师",
+      "followers": "~1M",
+      "contrarian_value": "中等",
+      "sentiment_weight": 6.0,
+      "description": "链上分析先驱，BTC长期指标研究者",
+      "why_selected": "链上数据驱动偏理性，但2026年发出$45K看空预警引发恐慌。作为理性分析师的悲观信号对市场冲击更大，可作为确认指标。",
+      "known_for": [
+        "链上分析",
+        "NVT指标",
+        "矿工行为"
+      ],
+      "language": "EN",
+      "tweet_frequency": "中等"
+    },
+    {
+      "handle": "glassnode",
+      "name": "Glassnode",
+      "category": "机构/数据平台",
+      "followers": "~600K",
+      "contrarian_value": "中等",
+      "sentiment_weight": 5.0,
+      "description": "链上分析平台，提供数据而非情绪",
+      "why_selected": "客观数据源。当其报告显示'长期持有者开始恐慌卖出'、'交易所净流入飙升'时，结合KOL悲观情绪可增强信号可靠性。",
+      "known_for": [
+        "链上指标",
+        "HODL Waves",
+        "SOPR"
+      ],
+      "language": "EN",
+      "tweet_frequency": "高"
+    },
+    {
+      "handle": "cryptoquant_com",
+      "name": "CryptoQuant",
+      "category": "机构/数据平台",
+      "followers": "~300K",
+      "contrarian_value": "中等",
+      "sentiment_weight": 5.0,
+      "description": "链上数据分析平台",
+      "why_selected": "提供交易所流入/流出、矿工行为、鲸鱼动向等客观数据。当KOL极度悲观+CryptoQuant显示交易所流出增加（聪明钱抄底），形成强烈的逆向买入信号。",
+      "known_for": [
+        "交易所流量",
+        "矿工数据",
+        "MVRV"
+      ],
+      "language": "EN",
+      "tweet_frequency": "高"
+    },
+    {
+      "handle": "LookOnChain",
+      "name": "Lookonchain",
+      "category": "巨鲸追踪",
+      "followers": "~500K",
+      "contrarian_value": "中等",
+      "sentiment_weight": 5.5,
+      "description": "巨鲸链上行为追踪",
+      "why_selected": "实时追踪大户行为。当KOL群体悲观时若鲸鱼在大量买入，这种'聪明钱-散户'分歧是最可靠的逆向信号之一。",
+      "known_for": [
+        "鲸鱼追踪",
+        "聪明钱",
+        "大额转账"
+      ],
+      "language": "EN",
+      "tweet_frequency": "极高"
+    },
+    {
+      "handle": "ali_charts",
+      "name": "Ali Martinez",
+      "category": "链上分析师",
+      "followers": "~100K",
+      "contrarian_value": "中等",
+      "sentiment_weight": 6.0,
+      "description": "链上+技术分析结合的分析师",
+      "why_selected": "图表清晰，数据驱动。当其指出链上指标进入'投降区域'时，结合KOL悲观情绪提供强烈的底部确认信号。",
+      "known_for": [
+        "链上指标",
+        "支撑阻力",
+        "MVRV"
+      ],
+      "language": "EN",
+      "tweet_frequency": "高"
+    },
+    {
+      "handle": "intocryptoverse",
+      "name": "Benjamin Cowen",
+      "category": "宏观分析师",
+      "followers": "~800K",
+      "contrarian_value": "中等",
+      "sentiment_weight": 6.0,
+      "description": "数据驱动的长周期分析师",
+      "why_selected": "以冷静理性著称。当其罕见地表达短期悲观时，说明数据面确实恶化，但也意味着恐慌已深度定价。",
+      "known_for": [
+        "周期分析",
+        "风险指标",
+        "理性分析"
+      ],
+      "language": "EN",
+      "tweet_frequency": "低"
+    },
+    {
+      "handle": "rabordeaux",
+      "name": "Rekt Capital",
+      "category": "技术交易员",
+      "followers": "~400K",
+      "contrarian_value": "中等",
+      "sentiment_weight": 6.5,
+      "description": "BTC周期分析和技术分析师",
+      "why_selected": "专注BTC减半周期分析。当其从'按计划进行'转为'周期可能已破坏'时，散户恐慌加剧但往往也是极端悲观的末端。",
+      "known_for": [
+        "减半周期",
+        "BTC长线",
+        "图表分析"
+      ],
+      "language": "EN",
+      "tweet_frequency": "中等"
+    },
+    {
+      "handle": "0xSunNFT",
+      "name": "链上皇孙",
+      "category": "中文社区KOL",
+      "followers": "~150K",
+      "contrarian_value": "高",
+      "sentiment_weight": 7.0,
+      "description": "链上交易狙击手，透明实盘",
+      "why_selected": "中文CT核心人物。透明的实盘记录让其情绪变化可追踪，当其表达'看不到机会/休息'时反映中文社区整体悲观。",
+      "known_for": [
+        "链上狙击",
+        "透明实盘",
+        "Meme币"
+      ],
+      "language": "CN",
+      "tweet_frequency": "高"
+    },
+    {
+      "handle": "unicornbitcoin",
+      "name": "UNICORN",
+      "category": "中文社区KOL",
+      "followers": "~130K",
+      "contrarian_value": "高",
+      "sentiment_weight": 7.0,
+      "description": "BTC/ETH分析，市场节奏把握",
+      "why_selected": "在中文社区以'逆向思维'著称。FOMO时冷静、恐慌时乐观。当其也转为悲观时，说明市场悲观程度已极端。",
+      "known_for": [
+        "BTC分析",
+        "逆向思维",
+        "节奏交易"
+      ],
+      "language": "CN",
+      "tweet_frequency": "中等"
+    },
+    {
+      "handle": "0xcryptowizzard",
+      "name": "巫师",
+      "category": "中文社区KOL",
+      "followers": "~120K",
+      "contrarian_value": "中等",
+      "sentiment_weight": 6.0,
+      "description": "AI叙事布道者，叙事敏感",
+      "why_selected": "对市场叙事高度敏感。当其从'推荐新叙事'转为沉默/悲观时，反映热点叙事已耗尽，往往是洗盘末期。",
+      "known_for": [
+        "AI叙事",
+        "新币推荐",
+        "趋势发现"
+      ],
+      "language": "CN",
+      "tweet_frequency": "高"
+    },
+    {
+      "handle": "Phyrex_Ni",
+      "name": "Phyrex",
+      "category": "中文社区KOL",
+      "followers": "~100K",
+      "contrarian_value": "中等",
+      "sentiment_weight": 6.5,
+      "description": "宏观+链上数据分析，中文社区数据派代表",
+      "why_selected": "以数据客观著称的中文分析师。当其给出悲观判断时有数据支撑，但极端悲观判断往往出现在BTC已充分下跌的阶段。",
+      "known_for": [
+        "宏观数据",
+        "ETF流量",
+        "链上分析"
+      ],
+      "language": "CN",
+      "tweet_frequency": "高"
+    },
+    {
+      "handle": "CryptoPainter_X",
+      "name": "CryptoPainter",
+      "category": "中文社区KOL",
+      "followers": "~80K",
+      "contrarian_value": "高",
+      "sentiment_weight": 6.5,
+      "description": "技术分析+量化交易员",
+      "why_selected": "技术面分析细致。当其多空策略完全偏向空头且表达'趋势无法逆转'时，技术面卖盘往往已充分释放。",
+      "known_for": [
+        "技术分析",
+        "量化策略",
+        "BTC/ETH"
+      ],
+      "language": "CN",
+      "tweet_frequency": "中等"
+    },
+    {
+      "handle": "RaoulGMI",
+      "name": "Raoul Pal",
+      "category": "宏观分析师",
+      "followers": "~1.9M",
+      "contrarian_value": "中等",
+      "sentiment_weight": 5.5,
+      "description": "Real Vision创始人，宏观经济+加密",
+      "why_selected": "从宏观角度解读加密市场。一贯看多，当其开始讨论'宏观风险'和'降低仓位'时，说明宏观层面确实恶化。",
+      "known_for": [
+        "宏观经济",
+        "流动性分析",
+        "机构视角"
+      ],
+      "language": "EN",
+      "tweet_frequency": "中等"
+    },
+    {
+      "handle": "APompliano",
+      "name": "Anthony Pompliano",
+      "category": "宏观分析师",
+      "followers": "~1.6M",
+      "contrarian_value": "中等",
+      "sentiment_weight": 5.0,
+      "description": "Bitcoin倡导者，宏观投资人",
+      "why_selected": "永久多头。当他罕见地承认'短期压力很大'或减少发推频率时，是市场情绪已极度悲观的佐证。",
+      "known_for": [
+        "BTC传道",
+        "ETF",
+        "机构采用"
+      ],
+      "language": "EN",
+      "tweet_frequency": "高"
+    },
+    {
+      "handle": "saylor",
+      "name": "Michael Saylor",
+      "category": "宏观分析师",
+      "followers": "~3.5M",
+      "contrarian_value": "低",
+      "sentiment_weight": 3.0,
+      "description": "MicroStrategy创始人，BTC最大企业持有者",
+      "why_selected": "永远看多BTC，情绪几乎不变。不作为情绪信号源，但当其停止发'激光眼'推文时可作为极端环境佐证。",
+      "known_for": [
+        "企业BTC持仓",
+        "BTC传道",
+        "坚定多头"
+      ],
+      "language": "EN",
+      "tweet_frequency": "高"
+    }
+  ]
+}
