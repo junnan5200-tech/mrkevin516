@@ -1,0 +1,36 @@
+{
+  "name": "twitter-binance-square-sync",
+  "version": "1.0.0",
+  "description": "Sync newly published tweets to Binance Square.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test",
+    "binance:login": "node scripts/binance-login.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junnan5200-tech/mrkevin516.git"
+  },
+  "keywords": [
+    "twitter",
+    "x",
+    "binance",
+    "square",
+    "sync",
+    "playwright"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junnan5200-tech/mrkevin516/issues"
+  },
+  "homepage": "https://github.com/junnan5200-tech/mrkevin516#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "playwright": "^1.58.2"
+  }
+}
