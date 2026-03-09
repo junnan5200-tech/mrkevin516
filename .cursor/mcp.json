@@ -1,0 +1,83 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "mcp-server-filesystem",
+      "args": [
+        "/workspace"
+      ]
+    },
+    "github": {
+      "command": "mcp-server-github",
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_GITHUB_PERSONAL_ACCESS_TOKEN>"
+      }
+    },
+    "gitlab": {
+      "command": "mcp-server-gitlab",
+      "env": {
+        "GITLAB_PERSONAL_ACCESS_TOKEN": "<YOUR_GITLAB_PERSONAL_ACCESS_TOKEN>",
+        "GITLAB_API_URL": "https://gitlab.com/api/v4"
+      }
+    },
+    "postgres": {
+      "command": "mcp-server-postgres",
+      "args": [
+        "postgresql://<USER>:<PASSWORD>@<HOST>:5432/<DATABASE>"
+      ]
+    },
+    "slack": {
+      "command": "mcp-server-slack",
+      "env": {
+        "SLACK_BOT_TOKEN": "xoxb-<YOUR_SLACK_BOT_TOKEN>",
+        "SLACK_TEAM_ID": "T<YOUR_TEAM_ID>",
+        "SLACK_CHANNEL_IDS": "C<CHANNEL_ID_1>,C<CHANNEL_ID_2>"
+      }
+    },
+    "playwright": {
+      "command": "playwright-mcp",
+      "args": [
+        "--headless",
+        "--isolated"
+      ]
+    },
+    "fetch": {
+      "command": "mcp-fetch-server",
+      "env": {
+        "DEFAULT_LIMIT": "50000"
+      }
+    },
+    "notion": {
+      "command": "notion-mcp-server",
+      "env": {
+        "NOTION_TOKEN": "ntn_<YOUR_NOTION_TOKEN>"
+      }
+    },
+    "atlassian": {
+      "command": "mcp-atlassian",
+      "env": {
+        "ATLASSIAN_BASE_URL": "https://<YOUR_DOMAIN>.atlassian.net",
+        "ATLASSIAN_EMAIL": "<YOUR_EMAIL>",
+        "ATLASSIAN_API_TOKEN": "<YOUR_API_TOKEN>"
+      }
+    },
+    "lark": {
+      "command": "lark-mcp",
+      "args": [
+        "mcp",
+        "-a",
+        "<YOUR_LARK_APP_ID>",
+        "-s",
+        "<YOUR_LARK_APP_SECRET>",
+        "-l",
+        "zh"
+      ]
+    },
+    "wecom-bot": {
+      "command": "wecom-bot-mcp-server",
+      "args": [
+        "--wecom-bot-key",
+        "<YOUR_WECOM_BOT_KEY>"
+      ]
+    }
+  }
+}
