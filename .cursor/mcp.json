@@ -1,32 +1,32 @@
 {
   "mcpServers": {
     "filesystem": {
-      "command": "mcp-server-filesystem",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/mcp-server-filesystem",
       "args": [
         "/workspace"
       ]
     },
     "github": {
-      "command": "mcp-server-github",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/mcp-server-github",
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_GITHUB_PERSONAL_ACCESS_TOKEN>"
       }
     },
     "gitlab": {
-      "command": "mcp-server-gitlab",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/mcp-server-gitlab",
       "env": {
         "GITLAB_PERSONAL_ACCESS_TOKEN": "<YOUR_GITLAB_PERSONAL_ACCESS_TOKEN>",
         "GITLAB_API_URL": "https://gitlab.com/api/v4"
       }
     },
     "postgres": {
-      "command": "mcp-server-postgres",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/mcp-server-postgres",
       "args": [
-        "postgresql://<USER>:<PASSWORD>@<HOST>:5432/<DATABASE>"
+        "postgresql://user:password@localhost:5432/dbname"
       ]
     },
     "slack": {
-      "command": "mcp-server-slack",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/mcp-server-slack",
       "env": {
         "SLACK_BOT_TOKEN": "xoxb-<YOUR_SLACK_BOT_TOKEN>",
         "SLACK_TEAM_ID": "T<YOUR_TEAM_ID>",
@@ -34,26 +34,26 @@
       }
     },
     "playwright": {
-      "command": "playwright-mcp",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/playwright-mcp",
       "args": [
         "--headless",
         "--isolated"
       ]
     },
     "fetch": {
-      "command": "mcp-fetch-server",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/mcp-fetch-server",
       "env": {
         "DEFAULT_LIMIT": "50000"
       }
     },
     "notion": {
-      "command": "notion-mcp-server",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/notion-mcp-server",
       "env": {
         "NOTION_TOKEN": "ntn_<YOUR_NOTION_TOKEN>"
       }
     },
     "atlassian": {
-      "command": "mcp-atlassian",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/mcp-atlassian",
       "env": {
         "ATLASSIAN_BASE_URL": "https://<YOUR_DOMAIN>.atlassian.net",
         "ATLASSIAN_EMAIL": "<YOUR_EMAIL>",
@@ -61,7 +61,7 @@
       }
     },
     "lark": {
-      "command": "lark-mcp",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/lark-mcp",
       "args": [
         "mcp",
         "-a",
@@ -73,7 +73,7 @@
       ]
     },
     "wecom-bot": {
-      "command": "wecom-bot-mcp-server",
+      "command": "/home/ubuntu/.nvm/versions/node/v22.21.1/bin/wecom-bot-mcp-server",
       "args": [
         "--wecom-bot-key",
         "<YOUR_WECOM_BOT_KEY>"
