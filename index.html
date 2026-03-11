@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BANK OF AI | On-chain Payments, Identities & DeFi for AI Agents</title>
+  <meta name="description" content="Bank of AI provides on-chain financial infrastructure for AI agents — payments via x402, identities via 8004, and DeFi across TRON & BNB Chain.">
+  <meta name="keywords" content="Bank of AI, AI agents, x402, 8004, DeFi, TRON, BNB Chain, MCP Server, OpenClaw, on-chain payments, AI identity">
+  <meta name="author" content="AINFT">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="BANK OF AI | On-chain Financial Infrastructure for AI Agents">
+  <meta property="og:description" content="Enable AI agents with on-chain payments, identities, and DeFi capabilities across TRON & BNB Chain.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bankofai.io/">
+  <meta property="og:image" content="https://bankofai.io/assets/og-image.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BANK OF AI | On-chain Financial Infrastructure for AI Agents">
+  <meta name="twitter:description" content="Enable AI agents with on-chain payments, identities, and DeFi capabilities.">
+
+  <link rel="canonical" href="https://bankofai.io/">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏦</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Bank of AI",
+    "description": "On-chain financial infrastructure for AI agents — payments, identities, and DeFi.",
+    "url": "https://bankofai.io/",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="container navbar__inner">
+      <a href="/" class="navbar__logo" aria-label="Bank of AI Home">
+        <svg class="navbar__logo-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <rect width="32" height="32" rx="8" fill="url(#logo-grad)"/>
+          <path d="M8 22V12l8-5 8 5v10" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 22v-6h8v6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="16" cy="13" r="2" fill="#fff"/>
+          <defs><linearGradient id="logo-grad" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+        </svg>
+        <span class="navbar__logo-text">BANK OF AI</span>
+      </a>
+
+      <nav class="navbar__nav" id="mainNav" role="navigation" aria-label="Main navigation">
+        <a href="#features" class="navbar__link">Features</a>
+        <a href="#protocols" class="navbar__link">Protocols</a>
+        <a href="#defi" class="navbar__link">DeFi</a>
+        <a href="#mcp-servers" class="navbar__link">MCP Servers</a>
+        <a href="#developers" class="navbar__link">Developers</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="https://docs.bankofai.io" class="btn btn--ghost" target="_blank" rel="noopener">Docs</a>
+        <a href="#get-started" class="btn btn--primary">Get Started</a>
+      </div>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero__bg">
+        <canvas id="heroCanvas" aria-hidden="true"></canvas>
+      </div>
+      <div class="container hero__content">
+        <div class="hero__badge">
+          <span class="pulse-dot"></span>
+          Live on TRON &amp; BNB Chain
+        </div>
+        <h1 class="hero__title">
+          On-chain <span class="gradient-text">Banking</span><br>
+          for <span class="gradient-text">AI Agents</span>
+        </h1>
+        <p class="hero__subtitle">
+          Enable AI agents with autonomous payments, on-chain identities, and DeFi capabilities. 
+          One infrastructure, every financial action.
+        </p>
+        <div class="hero__cta">
+          <a href="#get-started" class="btn btn--primary btn--lg">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 3v14m-7-7h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            Start Building
+          </a>
+          <a href="https://docs.bankofai.io" class="btn btn--outline btn--lg" target="_blank" rel="noopener">
+            Read the Docs
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12l8-8m0 0H5m7 0v7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-value" data-count="390000">390K+</span>
+            <span class="hero__stat-label">Users</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value">2</span>
+            <span class="hero__stat-label">Chains Supported</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value">4</span>
+            <span class="hero__stat-label">MCP Servers</span>
+          </div>
+          <div class="hero__stat">
+            <span class="hero__stat-value">5+</span>
+            <span class="hero__stat-label">DeFi Protocols</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Overview -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Core Capabilities</span>
+          <h2 class="section-title">Everything AI Agents Need to <span class="gradient-text">Transact On-chain</span></h2>
+          <p class="section-desc">Three foundational pillars powering AI agents' financial autonomy across multiple blockchains.</p>
+        </div>
+        <div class="features__grid">
+          <article class="feature-card feature-card--payments">
+            <div class="feature-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <rect x="4" y="8" width="32" height="24" rx="4" stroke="currentColor" stroke-width="2"/>
+                <path d="M4 16h32" stroke="currentColor" stroke-width="2"/>
+                <path d="M10 24h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">x402 Payments</h3>
+            <p class="feature-card__desc">Programmatic on-chain payments with a single line of code. Pay-before-response mechanism for machine-to-machine interactions.</p>
+            <a href="#x402" class="feature-card__link">Learn more <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="feature-card feature-card--identity">
+            <div class="feature-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <circle cx="20" cy="14" r="6" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 34c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M26 12l4-4m0 0l4 4m-4-4v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">8004 Identity</h3>
+            <p class="feature-card__desc">Register and manage on-chain identities as NFTs with built-in reputation systems on TRON and BNB Chain.</p>
+            <a href="#identity" class="feature-card__link">Learn more <span aria-hidden="true">&rarr;</span></a>
+          </article>
+
+          <article class="feature-card feature-card--defi">
+            <div class="feature-card__icon">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <path d="M20 4l4 8h8l-6 5 2 9-8-5-8 5 2-9-6-5h8l4-8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">DeFi Access</h3>
+            <p class="feature-card__desc">Autonomous lending, swapping, and yield generation through seamless DeFi protocol integrations.</p>
+            <a href="#defi" class="feature-card__link">Learn more <span aria-hidden="true">&rarr;</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Protocols Section -->
+    <section class="protocols" id="protocols">
+      <div class="container">
+        <!-- x402 Protocol -->
+        <div class="protocol-block" id="x402">
+          <div class="protocol-block__content">
+            <span class="section-tag">Payment Protocol</span>
+            <h2 class="section-title">x402: <span class="gradient-text">Pay-Before-Response</span></h2>
+            <p class="protocol-block__desc">The x402 standard enables seamless machine-to-machine payments. AI agents can programmatically send and receive on-chain micropayments with a single line of code — no intermediaries required.</p>
+            <ul class="protocol-block__features">
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 10l3 3 7-7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                One-line payment integration
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 10l3 3 7-7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                TRON &amp; BNB Chain support
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 10l3 3 7-7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Machine-to-machine optimized
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 10l3 3 7-7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                More chains coming soon
+              </li>
+            </ul>
+          </div>
+          <div class="protocol-block__code">
+            <div class="code-window">
+              <div class="code-window__header">
+                <span class="code-window__dot code-window__dot--red"></span>
+                <span class="code-window__dot code-window__dot--yellow"></span>
+                <span class="code-window__dot code-window__dot--green"></span>
+                <span class="code-window__title">payment.ts</span>
+              </div>
+              <pre class="code-window__body"><code><span class="code-kw">import</span> { <span class="code-fn">payWithx402</span> } <span class="code-kw">from</span> <span class="code-str">'@bankofai/x402'</span>;
+
+<span class="code-comment">// One-line payment</span>
+<span class="code-kw">const</span> receipt = <span class="code-kw">await</span> <span class="code-fn">payWithx402</span>({
+  <span class="code-prop">to</span>: <span class="code-str">'TAgent...xyz'</span>,
+  <span class="code-prop">amount</span>: <span class="code-str">'10.00'</span>,
+  <span class="code-prop">token</span>: <span class="code-str">'USDT'</span>,
+  <span class="code-prop">chain</span>: <span class="code-str">'tron'</span>
+});
+
+<span class="code-fn">console</span>.<span class="code-fn">log</span>(receipt.<span class="code-prop">txHash</span>);
+<span class="code-comment">// → "a1b2c3...f4e5d6"</span></code></pre>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8004 Identity -->
+        <div class="protocol-block protocol-block--reverse" id="identity">
+          <div class="protocol-block__content">
+            <span class="section-tag">Identity Standard</span>
+            <h2 class="section-title">8004: <span class="gradient-text">On-chain AI Identity</span></h2>
+            <p class="protocol-block__desc">Give your AI agents a verifiable on-chain identity. The 8004 standard mints agent identities as NFTs with built-in reputation scoring, enabling trustworthy machine-to-machine interactions.</p>
+            <ul class="protocol-block__features">
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 10l3 3 7-7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Identity as NFT
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 10l3 3 7-7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Built-in reputation system
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 10l3 3 7-7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Cross-chain compatible
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5 10l3 3 7-7" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                Verifiable agent credentials
+              </li>
+            </ul>
+          </div>
+          <div class="protocol-block__code">
+            <div class="code-window">
+              <div class="code-window__header">
+                <span class="code-window__dot code-window__dot--red"></span>
+                <span class="code-window__dot code-window__dot--yellow"></span>
+                <span class="code-window__dot code-window__dot--green"></span>
+                <span class="code-window__title">identity.ts</span>
+              </div>
+              <pre class="code-window__body"><code><span class="code-kw">import</span> { <span class="code-fn">AgentID</span> } <span class="code-kw">from</span> <span class="code-str">'@bankofai/8004'</span>;
+
+<span class="code-kw">const</span> agent = <span class="code-kw">await</span> <span class="code-fn">AgentID</span>.<span class="code-fn">register</span>({
+  <span class="code-prop">name</span>: <span class="code-str">'TradingBot-01'</span>,
+  <span class="code-prop">chain</span>: <span class="code-str">'tron'</span>,
+  <span class="code-prop">capabilities</span>: [
+    <span class="code-str">'swap'</span>, <span class="code-str">'lend'</span>, <span class="code-str">'transfer'</span>
+  ]
+});
+
+<span class="code-comment">// Check reputation</span>
+<span class="code-kw">const</span> rep = <span class="code-kw">await</span> agent.<span class="code-fn">getReputation</span>();
+<span class="code-comment">// → { score: 95, txCount: 1240 }</span></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DeFi Section -->
+    <section class="defi-section" id="defi">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">DeFi Integration</span>
+          <h2 class="section-title">Autonomous <span class="gradient-text">DeFi Operations</span></h2>
+          <p class="section-desc">AI agents can lend, swap, and earn yield through direct integration with leading DeFi protocols.</p>
+        </div>
+        <div class="defi__grid">
+          <article class="defi-card">
+            <div class="defi-card__header">
+              <div class="defi-card__icon defi-card__icon--swap">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+                  <path d="M4 10h20m-4-4l4 4-4 4M24 18H4m4 4l-4-4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="defi-card__title">Token Swaps</h3>
+            </div>
+            <p class="defi-card__desc">Instant token swaps via SunSwap and PancakeSwap with optimized routing and slippage protection.</p>
+            <div class="defi-card__protocols">
+              <span class="protocol-tag">SunSwap</span>
+              <span class="protocol-tag">PancakeSwap</span>
+            </div>
+          </article>
+
+          <article class="defi-card">
+            <div class="defi-card__header">
+              <div class="defi-card__icon defi-card__icon--lend">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+                  <rect x="4" y="6" width="20" height="16" rx="3" stroke="currentColor" stroke-width="2"/>
+                  <path d="M14 10v8m-3-3l3 3 3-3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="defi-card__title">Lending &amp; Borrowing</h3>
+            </div>
+            <p class="defi-card__desc">Supply assets to earn interest or borrow against collateral through JustLend with automated position management.</p>
+            <div class="defi-card__protocols">
+              <span class="protocol-tag">JustLend</span>
+              <span class="protocol-tag">Lista</span>
+            </div>
+          </article>
+
+          <article class="defi-card">
+            <div class="defi-card__header">
+              <div class="defi-card__icon defi-card__icon--yield">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+                  <path d="M4 22l6-8 4 4 6-8 4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="defi-card__title">Yield Farming</h3>
+            </div>
+            <p class="defi-card__desc">Autonomous yield optimization across multiple pools and strategies for maximum capital efficiency.</p>
+            <div class="defi-card__protocols">
+              <span class="protocol-tag">SunSwap LP</span>
+              <span class="protocol-tag">PancakeSwap LP</span>
+            </div>
+          </article>
+
+          <article class="defi-card">
+            <div class="defi-card__header">
+              <div class="defi-card__icon defi-card__icon--liquidity">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+                  <circle cx="11" cy="14" r="7" stroke="currentColor" stroke-width="2"/>
+                  <circle cx="17" cy="14" r="7" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </div>
+              <h3 class="defi-card__title">Liquidity Provision</h3>
+            </div>
+            <p class="defi-card__desc">Add and manage liquidity positions in DEX pools with automated rebalancing and impermanent loss monitoring.</p>
+            <div class="defi-card__protocols">
+              <span class="protocol-tag">SunSwap</span>
+              <span class="protocol-tag">PancakeSwap</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MCP Servers Section -->
+    <section class="mcp-section" id="mcp-servers">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Developer Tools</span>
+          <h2 class="section-title">Ready-to-use <span class="gradient-text">MCP Servers</span></h2>
+          <p class="section-desc">Pre-built Model Context Protocol servers that give AI agents direct access to TRON DeFi protocols.</p>
+        </div>
+        <div class="mcp__grid">
+          <article class="mcp-card">
+            <div class="mcp-card__status">
+              <span class="status-dot status-dot--active"></span>Active
+            </div>
+            <h3 class="mcp-card__title">TRON-MCP-Server</h3>
+            <p class="mcp-card__desc">Core blockchain operations — transfers, balance queries, contract interactions, and account management on TRON.</p>
+            <div class="mcp-card__tags">
+              <span>Transfers</span>
+              <span>Balances</span>
+              <span>Contracts</span>
+            </div>
+          </article>
+
+          <article class="mcp-card">
+            <div class="mcp-card__status">
+              <span class="status-dot status-dot--active"></span>Active
+            </div>
+            <h3 class="mcp-card__title">SUN-MCP-Server</h3>
+            <p class="mcp-card__desc">SunSwap DEX integration — token swaps, liquidity management, pool discovery, and real-time pricing.</p>
+            <div class="mcp-card__tags">
+              <span>Swaps</span>
+              <span>Liquidity</span>
+              <span>Pricing</span>
+            </div>
+          </article>
+
+          <article class="mcp-card">
+            <div class="mcp-card__status">
+              <span class="status-dot status-dot--active"></span>Active
+            </div>
+            <h3 class="mcp-card__title">JustLend-MCP-Server</h3>
+            <p class="mcp-card__desc">Lending protocol access — supply, borrow, repay, and manage positions on JustLend with automated health monitoring.</p>
+            <div class="mcp-card__tags">
+              <span>Lending</span>
+              <span>Borrowing</span>
+              <span>Positions</span>
+            </div>
+          </article>
+
+          <article class="mcp-card">
+            <div class="mcp-card__status">
+              <span class="status-dot status-dot--active"></span>Active
+            </div>
+            <h3 class="mcp-card__title">TronScan-MCP-Server</h3>
+            <p class="mcp-card__desc">On-chain analytics — transaction histories, token info, contract verification, and real-time network data.</p>
+            <div class="mcp-card__tags">
+              <span>Analytics</span>
+              <span>History</span>
+              <span>Data</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- OpenClaw Integration -->
+    <section class="openclaw-section" id="openclaw">
+      <div class="container">
+        <div class="openclaw__inner">
+          <div class="openclaw__content">
+            <span class="section-tag">Quick Integration</span>
+            <h2 class="section-title">Drop-in <span class="gradient-text">OpenClaw Extension</span></h2>
+            <p class="openclaw__desc">Give any OpenClaw agent full banking capabilities with a single extension. Payments, identities, and DeFi — no additional setup required.</p>
+            <div class="openclaw__features">
+              <div class="openclaw__feature">
+                <div class="openclaw__feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <div>
+                  <h4>Instant Setup</h4>
+                  <p>Add the extension and your agent is ready to transact on-chain.</p>
+                </div>
+              </div>
+              <div class="openclaw__feature">
+                <div class="openclaw__feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <div>
+                  <h4>Full Banking Suite</h4>
+                  <p>Access payments, identity, and DeFi through a unified API.</p>
+                </div>
+              </div>
+              <div class="openclaw__feature">
+                <div class="openclaw__feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 14a1 1 0 011-1h4a1 1 0 011 1v5a1 1 0 01-1 1H5a1 1 0 01-1-1v-5zm5-6a1 1 0 011-1h4a1 1 0 011 1v11a1 1 0 01-1 1h-4a1 1 0 01-1-1V8zm5-4a1 1 0 011-1h4a1 1 0 011 1v15a1 1 0 01-1 1h-4a1 1 0 01-1-1V4z" stroke="currentColor" stroke-width="1.5"/></svg>
+                </div>
+                <div>
+                  <h4>Multi-chain Ready</h4>
+                  <p>Works across TRON and BNB Chain with more chains coming.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="openclaw__visual">
+            <div class="code-window">
+              <div class="code-window__header">
+                <span class="code-window__dot code-window__dot--red"></span>
+                <span class="code-window__dot code-window__dot--yellow"></span>
+                <span class="code-window__dot code-window__dot--green"></span>
+                <span class="code-window__title">agent.config.ts</span>
+              </div>
+              <pre class="code-window__body"><code><span class="code-kw">import</span> { <span class="code-fn">OpenClaw</span> } <span class="code-kw">from</span> <span class="code-str">'openclaw'</span>;
+<span class="code-kw">import</span> { <span class="code-fn">BankOfAI</span> } <span class="code-kw">from</span> <span class="code-str">'@bankofai/openclaw'</span>;
+
+<span class="code-kw">const</span> agent = <span class="code-kw">new</span> <span class="code-fn">OpenClaw</span>({
+  <span class="code-prop">extensions</span>: [
+    <span class="code-fn">BankOfAI</span>({
+      <span class="code-prop">chains</span>: [<span class="code-str">'tron'</span>, <span class="code-str">'bnb'</span>],
+      <span class="code-prop">features</span>: {
+        <span class="code-prop">payments</span>: <span class="code-val">true</span>,
+        <span class="code-prop">identity</span>: <span class="code-val">true</span>,
+        <span class="code-prop">defi</span>: <span class="code-val">true</span>
+      }
+    })
+  ]
+});
+
+<span class="code-comment">// Agent is ready to bank!</span>
+<span class="code-kw">await</span> agent.<span class="code-fn">start</span>();</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Supported Chains -->
+    <section class="chains-section" id="chains">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Network Support</span>
+          <h2 class="section-title">Multi-chain <span class="gradient-text">Infrastructure</span></h2>
+          <p class="section-desc">Currently live on two major chains with rapid expansion planned.</p>
+        </div>
+        <div class="chains__grid">
+          <article class="chain-card chain-card--active">
+            <div class="chain-card__badge">Live</div>
+            <svg class="chain-card__logo" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2"/>
+              <path d="M14 20h20l-10 14-10-14z" fill="currentColor" opacity="0.2"/>
+              <path d="M14 20h20l-10 14-10-14z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="chain-card__name">TRON</h3>
+            <p class="chain-card__desc">Full support for TRC-20 tokens, smart contracts, and the complete TRON DeFi ecosystem.</p>
+          </article>
+
+          <article class="chain-card chain-card--active">
+            <div class="chain-card__badge">Live</div>
+            <svg class="chain-card__logo" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 10l-8 14h16l-8 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <h3 class="chain-card__name">BNB Chain</h3>
+            <p class="chain-card__desc">Full support for BEP-20 tokens, PancakeSwap, Lista, and the broader BSC ecosystem.</p>
+          </article>
+
+          <article class="chain-card chain-card--soon">
+            <div class="chain-card__badge chain-card__badge--soon">Coming Soon</div>
+            <svg class="chain-card__logo" width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4"/>
+              <path d="M18 18h12v12H18z" stroke="currentColor" stroke-width="2" stroke-dasharray="3 3"/>
+              <path d="M24 20v8m-4-4h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3 class="chain-card__name">More Chains</h3>
+            <p class="chain-card__desc">Expansion to Ethereum, Solana, and other major chains is on the roadmap.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Developer CTA Section -->
+    <section class="dev-section" id="developers">
+      <div class="container">
+        <div class="dev-section__inner">
+          <div class="section-header">
+            <span class="section-tag">For Developers</span>
+            <h2 class="section-title">Build the Future of <span class="gradient-text">Agent Finance</span></h2>
+            <p class="section-desc">Everything you need to integrate on-chain financial capabilities into your AI agents.</p>
+          </div>
+          <div class="dev__grid">
+            <a href="https://docs.bankofai.io" class="dev-card" target="_blank" rel="noopener">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M6 4h14l6 6v18H6V4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M20 4v6h6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M11 16h10m-10 4h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <h3>Documentation</h3>
+              <p>Comprehensive guides, API references, and tutorials.</p>
+            </a>
+            <a href="https://github.com/open-aibank" class="dev-card" target="_blank" rel="noopener">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M16 2C8.268 2 2 8.268 2 16c0 6.186 4.014 11.426 9.584 13.28.7.128.96-.304.96-.672V26.15c-3.896.848-4.718-1.876-4.718-1.876-.636-1.616-1.554-2.046-1.554-2.046-1.27-.868.096-.85.096-.85 1.404.098 2.142 1.44 2.142 1.44 1.248 2.138 3.272 1.52 4.068 1.162.126-.906.488-1.52.888-1.87-3.112-.354-6.384-1.556-6.384-6.926 0-1.53.546-2.782 1.44-3.762-.144-.354-.624-1.78.138-3.71 0 0 1.174-.376 3.846 1.436A13.357 13.357 0 0116 8.634c1.188.006 2.384.16 3.502.47 2.668-1.812 3.838-1.436 3.838-1.436.764 1.93.284 3.356.14 3.71.898.98 1.438 2.232 1.438 3.762 0 5.384-3.278 6.568-6.398 6.914.504.434.952 1.29.952 2.6v3.856c0 .372.256.806.968.668C25.99 27.42 30 22.184 30 16 30 8.268 23.732 2 16 2z" fill="currentColor"/>
+              </svg>
+              <h3>GitHub</h3>
+              <p>Open-source SDKs, examples, and MCP server code.</p>
+            </a>
+            <a href="https://github.com/open-aibank/x402-tron-demo" class="dev-card" target="_blank" rel="noopener">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M10 8l-6 8 6 8m12-16l6 8-6 8M18 6l-4 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <h3>Demo &amp; Examples</h3>
+              <p>Live demos and code examples to get started quickly.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get Started CTA -->
+    <section class="cta-section" id="get-started">
+      <div class="container">
+        <div class="cta__inner">
+          <h2 class="cta__title">Ready to Give Your AI Agents <span class="gradient-text">Financial Superpowers</span>?</h2>
+          <p class="cta__desc">Start building with Bank of AI today. One integration, complete financial autonomy.</p>
+          <div class="cta__actions">
+            <a href="https://docs.bankofai.io" class="btn btn--primary btn--lg" target="_blank" rel="noopener">
+              Start Building Now
+            </a>
+            <a href="https://github.com/open-aibank" class="btn btn--outline btn--lg" target="_blank" rel="noopener">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="/" class="navbar__logo" aria-label="Bank of AI Home">
+            <svg class="navbar__logo-icon" width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <rect width="32" height="32" rx="8" fill="url(#logo-grad2)"/>
+              <path d="M8 22V12l8-5 8 5v10" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 22v-6h8v6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="16" cy="13" r="2" fill="#fff"/>
+              <defs><linearGradient id="logo-grad2" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#6366f1"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+            </svg>
+            <span class="navbar__logo-text">BANK OF AI</span>
+          </a>
+          <p class="footer__tagline">On-chain financial infrastructure for AI agents.</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Product</h4>
+            <a href="#features">Features</a>
+            <a href="#x402">x402 Protocol</a>
+            <a href="#identity">8004 Identity</a>
+            <a href="#defi">DeFi</a>
+          </div>
+          <div class="footer__col">
+            <h4>Developers</h4>
+            <a href="https://docs.bankofai.io" target="_blank" rel="noopener">Documentation</a>
+            <a href="https://github.com/open-aibank" target="_blank" rel="noopener">GitHub</a>
+            <a href="#mcp-servers">MCP Servers</a>
+            <a href="#openclaw">OpenClaw</a>
+          </div>
+          <div class="footer__col">
+            <h4>Community</h4>
+            <a href="#" target="_blank" rel="noopener">Twitter / X</a>
+            <a href="#" target="_blank" rel="noopener">Discord</a>
+            <a href="#" target="_blank" rel="noopener">Telegram</a>
+            <a href="#" target="_blank" rel="noopener">Medium</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Bank of AI by AINFT. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
