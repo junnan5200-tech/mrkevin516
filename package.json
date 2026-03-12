@@ -1,0 +1,10 @@
+{
+  "name": "bankofai-website",
+  "version": "1.0.0",
+  "description": "Bank of AI - The Financial Infrastructure for AI Agents",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build step required'"
+  },
+  "license": "MIT"
+}
